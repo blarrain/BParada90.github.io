@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: lightgrey;
+    color: rgb(255, 255, 255);
+    font-family:'Raleway';
+}
+
+header{
+    text-align: center;
+}
+h1{ 
+    height: 73px;
+    align-content: center;
+}
+
+/*BARRA DE NAVEGACIÓN*/
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    background-color: lightgrey;
+}
+
+.navbar a{
+    color: white;
+   padding: 14px 20px;
+   text-decoration: none;
+}
+
+.navbar a:hover{
+    background-color: lightblue;
+}
+/*SECCIÓN 1*/
+
+.sec1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 350px;
+    margin-left: 10%;
+    margin-right: 10%;
+    }
+.art1{
+    width: 500px;
+}
+
+.sec1 img{
+   /* width: 400px;
+    height: 237px;*/
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+/*SECCIÓN 2*/
+
+.sec2{
+    /*background-color: #1e1a13;*/
+    background-color: lightblue;
+    text-align: center;
+    padding: 25px;
+    height: 250px;
+}
+
+.sec2 h2{
+    font-size: 30px;
+    padding: 1.5em;
+    font-weight: 400;
+}
+
+.sec2div{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    margin-right: 18%;
+    margin-left: 18%;
+    text-align: center;
+}
+
+.sec2div p{
+    padding: 10px;
+
+}
+
+
+   /* gap: 15px;
+    padding: 20px;*/
+
+.sec3{
+    display: flex;
+   align-content: flex-start;
+   justify-content: space-around;
+    background-color: white;
+    color: lightblue;
+  
+}
+.art2{
+    margin: 0%;
+}
+.art3{
+    margin-left: 2%;
+}
+h2{
+    margin-left: 5%;
+}
+
+li{
+    list-style: none;
+}
+
+
+/*PORTAFOLIO*/
+.cambiopagina{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    background-color: lightblue;
+   
+    text-align: left;
+    text-decoration: none;    
+}
+
+a{
+    color: white;
+    text-decoration: none;
+
+}
+
+/*FORM*/
+form{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    background-color: lightgray;
+    text-align: left;
+
+}
+
+/*CONTACTO*/
+.contacto{
+    text-align: center;
+}
+
+
+/*FOOTER*/
+
+footer{
+    
+    height: 80px;
+    text-align: center;
+
+}
+
+footer{
+    padding: 25px;
+    background-color: lightblue;
+}
+
+
+
+
+
+.navbar-nav {
+    display: flex;
+  }
+  
+  .btn{
+    background-color:white;
+    color:  lightgray;
+    border:white;
+  }
+
+  .btn:hover {
+    background-color: lightblue;
+    
+  }
+  
